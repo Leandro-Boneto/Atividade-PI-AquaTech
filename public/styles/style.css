@@ -1,1 +1,235 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.header{
+    background-color: black;
+    border-bottom: 2px solid #32bacd;
+
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.titulo{
+    color: #32bacd;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    color: #e3b02e;
+}
+.navbar a {
+    color: #e3b02e;
+    text-decoration: none;
+}
+
+.banner{
+    height: 400px;
+    width: 100%;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+
+}
+.banner .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner .container p{
+    margin: 0;
+    color: white;
+    font-size: 28px;
+    width: 150px;
+}
+.banner .container p span{
+    font-weight: bold;
+}
+
+.social{
+    height: 400px;
+    width: 100%;
+    background-color: #dcdcdc;
+}
+.social .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+}
+.box h4{
+    color: blueviolet;
+    margin: 0;
+    margin-top: 10px;
+}
+.box img{
+    width: 120px;
+    height: 120px;
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: #32bacd;
+
+}
+.footer .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+.footer .container h4{
+    margin-bottom: 0;
+}
+
+.login .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+}
+.card-login{
+    width: 400px;
+    right: 100%;
+   background-color: #E5E5E5;
+   justify-content: center;
+   align-items: center;
+   border-radius: 15px;
+   color: #ed145b;
+   padding: 10px;
+}
+.card-cadastro{
+    width: 570px;
+    right: 100%;
+   background-color: #E5E5E5;
+   justify-content: center;
+   align-items: center;
+   border-radius: 15px;
+   color: #ed145b;
+   padding: 10px;
+}
+ .card-login >h2, .card-cadastro > h2{
+    font-size: 28px;
+    display: flex;
+    padding-top: 15px ;
+    align-items: center;
+    justify-content: center;
+    margin: 0
+
+    
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px 25px;
+    
+} 
+.campo{
+    width: 100%;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.agora{
+    font-weight: bold;
+}
+.campo > input{
+    display: flex;
+    align-self: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 100%;
+    border: 1px solid #32bacd;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.botao{
+    padding: 10px;
+    width: 120px;
+    margin: 10px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+    background-color: #ed145b;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+.simulador {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.simulador .container{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    width: 100%;
+    background-image: url("../assets/imgs/banner-fundo.jpeg");
+    background-size: cover;
+}
+.simulador .container > h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    color: #ed145b;
+    font-size: 38px;
+}
+.simulador .container >p{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 3px;
+    width: calc(95% - 10px);
+    margin: 0;
+    color: black;
+    
+}
